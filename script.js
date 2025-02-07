@@ -1,62 +1,62 @@
 
-//Condotionals
-// An if loop checks if something is true or false, and 
-//commits an action based on the response
-// let alder = 16;
+// //Condotionals
+// // An if loop checks if something is true or false, and 
+// //commits an action based on the response
+// // let alder = 16;
 
-// if(alder >= 18) {
-//     console.log("Du er gammel nok til [ komme inn!")
-// }
+// // if(alder >= 18) {
+// //     console.log("Du er gammel nok til [ komme inn!")
+// // }
 
-// An if-else checks if something is true or false and commits
-// an action based on the response, but one can give differing
-// actions based on whether the outcome is true or false
-// if( alder >= 18) {
-//     console.log("Du slipper inn")
-// } else {
-//     console.log("Du er ikke gammel nok!")
-// }
+// // An if-else checks if something is true or false and commits
+// // an action based on the response, but one can give differing
+// // actions based on whether the outcome is true or false
+// // if( alder >= 18) {
+// //     console.log("Du slipper inn")
+// // } else {
+// //     console.log("Du er ikke gammel nok!")
+// // }
 
-// An if-else if-else checks multiple conditions. It should be noted
-//that this specific loop type has a default condition, which is listed
-//in the final else-part of the loop. This ensures that if all the other
-// conditions fail, the default will still complete.
-// let age = 20;
-// let name = "Hans";
+// // An if-else if-else checks multiple conditions. It should be noted
+// //that this specific loop type has a default condition, which is listed
+// //in the final else-part of the loop. This ensures that if all the other
+// // conditions fail, the default will still complete.
+// // let age = 20;
+// // let name = "Hans";
 
-// if(age === 18)
-// {
-//     console.log("Du er gammel nok!")
-// } else if (age === 16){
-//     console.log("Du er ikke gammel nok")
-// } else{
-//     console.log("Try again!")
-// }
+// // if(age === 18)
+// // {
+// //     console.log("Du er gammel nok!")
+// // } else if (age === 16){
+// //     console.log("Du er ikke gammel nok")
+// // } else{
+// //     console.log("Try again!")
+// // }
 
-// This shows how to use if-else-if-else to loop through an object
-// let bruker = {
-//     navn: "Ole",
-//     alder: 25,
-//     by: "Oslo"
-// } 
+// // This shows how to use if-else-if-else to loop through an object
+// // let bruker = {
+// //     navn: "Ole",
+// //     alder: 25,
+// //     by: "Oslo"
+// // } 
 
-// if(bruker.name === "John"){
-//     console.log("Welcome, John")
-// } else if (bruker.name === "Ole" && bruker.age === 30){
-//     console.log("Hei Ole, du er 30!")
-// } else if (bruker.name === "Ole" || 
-//     bruker.by === "Bergen") {
-//         console.log("Welcome, Ole!")
-//     } else {
-//         console.log("Wrong user input")
-//     }
-// 
+// // if(bruker.name === "John"){
+// //     console.log("Welcome, John")
+// // } else if (bruker.name === "Ole" && bruker.age === 30){
+// //     console.log("Hei Ole, du er 30!")
+// // } else if (bruker.name === "Ole" || 
+// //     bruker.by === "Bergen") {
+// //         console.log("Welcome, Ole!")
+// //     } else {
+// //         console.log("Wrong user input")
+// //     }
+// // 
 
-// to comment out larger sections in vsCode, mark the sections and use ctrl+*
-// ternary operator
-// a ternary operator is a short and easy way to check for \
-//true or false. You basically ask Javascript a question, and give it 
-// options to check. 
+// // to comment out larger sections in vsCode, mark the sections and use ctrl+*
+// // ternary operator
+// // a ternary operator is a short and easy way to check for \
+// //true or false. You basically ask Javascript a question, and give it 
+// // options to check. 
 let name = " Ida ";
 let age = 20;
 
@@ -128,3 +128,4 @@ for (let i = 0; i  < oddOrEven.length; i++) {
         console.log(`${oddOrEven[i]} is odd`)
     }
 } 
+
